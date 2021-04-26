@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teo Guide</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c4459b9448.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" >
+</head>
+<body>  
+  <section class="header-section">
+    <!--NAVBAR-->
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>        
+        <ul>
+          <li><a href="">INICIO</a></li>
+          <li><a href="#nosotros_section">NOSOTROS</a></li>
+          <li><a href="#beneficios_section">BENEFICIOS</a></li>
+          <li><a href="#wireframes_section">WIREFRAMES</a></li>
+          <li><a href="#galeria_section">GALERÍA</a></li>
+          <li><a href="#testimonios_section">TESTIMONIOS</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <!--HEADER-->
+    <div class="text-box-center">
+      <h1>La Mejor Aplicación de Guía Turística</h1>
+      <p>Gracias a TeoGuide ahora buscar los mejores lugares turísticos es más fácil</p>
+      <a href="" class="btn-action">Descarga la App y pruébala</a>
+    </div>
+  </section>
+
+  <!--BENEFICIOS-->
+  <section class="benefits-section" id="beneficios_section">
+    <h1>Nuestros Beneficios</h1>
+    <p>TeoGuide cuenta con diversos beneficios para tus planes turísticos a sitios arqueológicos,<br>te contamos algunos de estos beneficios
+    </p>
+    
+    <div class="row">
+      <div class="benefit-col">
+        <h3>Información y Ubicación</h3>
+        <p>Con TeoGuide podrás obtener información acerca de los sitios arqueológicos mejor recomendados para visitar, 
+          además de ubicarlos de manera sencilla.
+        </p>
+      </div>
+      <div class="benefit-col">
+        <h3>Planificación</h3>
+        <p>TeoGuide te brinda diversas opciones para poder planificar tus visitas turísticas a los sitios arqueológicos.
+        </p>
+      </div>
+      <div class="benefit-col">
+        <h3>Búsqueda Interactica</h3>
+        <p>Nuestra App te ofrece una forma de ubicar el sitio arqueológico de tu agrado mas cercano a ti mediante GPS,
+          como también buscarlos por medio de imágenes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--WIREFRAMES-->
+  <section class="wireframes-section" id="wireframes_section">
+    <h1>Nuestra App</h1>
+    <p>Te mostramos algunas imágenes de como es nuestra aplicación</p>
+
+    <div class="row">
+      <div class="wireframe-col">
+        <img src="images/wireframe-1.png">
+        <div class="layer">
+          <h3>Inicio de Sesión</h3>
+        </div>
+      </div>
+      <div class="wireframe-col">
+        <img src="images/wireframe-2.png">
+        <div class="layer">
+          <h3>Sitios Populares</h3>
+        </div>
+      </div>
+      <div class="wireframe-col">
+        <img src="images/wireframe-3.png">
+        <div class="layer">
+          <h3>Detalle del Sitio</h3>
+        </div>
+      </div>
+      <div class="wireframe-col">
+        <img src="images/wireframe-4.png">
+        <div class="layer">
+          <h3>Explorar Sitios</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--GALERÍA-->
+  <section class="galeria-section" id="galeria_section">
+    <h1>Sitios de Interés</h1>
+    <p>Te mostramos los sitios arqueológicos más concurridos por nuestros usuarios <br>y que de seguro te gustaría visitarlos</p>
+
+    <div class="row">
+      <div class="galeria-col">
+        <img src="images/caral.jpg">
+        <h3>Caral</h3>
+        <p>La Ciudad Sagrada de Caral es un interesante sitio arqueológico ubicado en el Valle de Supe. 
+          En ella podrás visitar los restos de las pirámides de la primera civilización de América.</p>
+      </div>
+      <div class="galeria-col">
+        <img src="images/huallamarca.jpg">
+        <h3>Huaca Huallamarca</h3>
+        <p>La Huaca Huallamarca considerada como un centro ceremorial, tiene la forma de uan pirámide trunca
+          con tres plataformas superpuestas. Este sitio se encuentra en plena zona residencial de San Isidro.</p>
+      </div>
+      <div class="galeria-col">
+        <img src="images/mateo-salado.png">
+        <h3>Huaca Mateo Salado</h3>
+        <p>El complejo arqueológico de Mateo Salado está constituido por cinco montículos piramidales. 
+          Se cree que antiguamente se hallaba conectado mediante un camino amurallado a la Huaca de Maranga.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--TESTIMONIOS-->
+  <section class="testimonios-section" id="testimonios_section">
+    <h1>Comentarios</h1>
+    <p>Dejamos que la experiencia vivida por nuestros usuarios hablen por nosotros
+    </p>
+
+    <div class="row">
+      <div class="testimonio-col">
+        <img src="images/user-1.png">
+        <div>
+          <p>
+            Excelente aplicación. Con ella pude planificar de manera sencilla mi visita a la Huaca Huallamarca, además de realizar un itinerario para no olvidarme
+            que objetos llevar y que lugares visitar.
+          </p>
+          <h3>Gladis Mendoza</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+      <div class="testimonio-col">
+        <img src="images/user-2.png">
+        <div>
+          <p>
+            Con TeoGuide pude encontrar diversos sitios arqueológicos que estaban cerca a mi, pero que los desconocía por completo! Fue increíble visitarlos.
+          </p>
+          <h3>Erick Galarza</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CALL TO ACTION-->
+  <section class="call-action">
+    <h1>Descarga y prueba nuestra aplicación</h1>
+    <a href="" class="btn-action">Descargar App</a>
+  </section>
+  
+  <!--FOOTER-->
+  <section class="footer-section" id="nosotros_section">
+    <h3>Sobre Nosotros</h3>
+    <p>
+      Novapps es una empresa emergente que tiene como propósito difundir la cultura <br>
+      y sitios históricos de nuestro país, para que estos destinos puedan ser visitidos<br>
+      por turistas locales como extranjeros.
+    </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Realizado por Novapps &copy; 2021</p>
+  </section>
+
+  <a class="btn-scroll-up" id="btnScrollUp" onclick="scrollUp()"><i class="fa fa-chevron-up"></i></a>
+
+  <!--SCRIPT TOGGLE MENU-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px";  
+    }
+
+
+    btnScrollUp = document.getElementById("btnScrollUp");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        btnScrollUp.style.display = "block";
+      } else {
+        btnScrollUp.style.display = "none";
+      }
+    }
+
+    function scrollUp() {
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+  </script>
+</body>
+</html>
